@@ -1,7 +1,7 @@
 pipeline{
     agent none
     stages{
-        stage('checkout'){
+        stage('build'){
             agent{
                 label 'buildagent'
             }
